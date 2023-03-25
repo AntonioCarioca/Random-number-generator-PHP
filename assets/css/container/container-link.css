@@ -1,0 +1,11 @@
+.container--link{
+	margin-left: 88%;
+	padding: 5px;
+	width: 10%;
+	border: solid #FC2947;
+	background-color: #FC2947;
+	border-radius: 4px;
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+}

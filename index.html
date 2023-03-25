@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Random Number Generator</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/container/container.css">
+	<link rel="stylesheet" href="assets/css/container/container-titulo.css">
+	<link rel="stylesheet" href="assets/css/container/container-quantidade.css">
+	<link rel="stylesheet" href="assets/css/container/container-lados.css">
+	<link rel="stylesheet" href="assets/css/container/container-submit.css">
+</head>
+<body>
+	
+
+	<form action="assets/php/main.php" method="post">
+		<div class="container">
+
+			<h3 class="container--titulo">Random Number Generator</h3>
+			<hr>
+
+			<div class="container--quantidade">
+				<label class="container--quantidade-label" for="qdados">Quantidade de Dados</label>
+				<input class="container--quantidade-input" type="number" name="qdados" id="qdados">
+			</div>
+		
+			<div class="container--lados">
+				<label class="container--lados-label" for="qlados">Quantos lados do quadrado:</label>
+				<select class="container--lados-select" name="qlados" id="qlados">
+					<option value="4">4</option>
+					<option value="6">6</option>
+					<option value="8">8</option>
+			</select>	
+			</div>
+
+			<input class="container--submit" type="submit" name="validar" value="Validar">
+
+		</div>
+	</form>
+
+</body>
+</html>
